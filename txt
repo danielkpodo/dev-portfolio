@@ -1,0 +1,15 @@
+<!--
+  <div class="container" >
+        <div class="my-profile text-center">
+        <img src="images/me.png" class=" img-fluid img-thumbnail mt-5" alt="">
+            <h1 class="mt-4"><span class="text-muted">I am</span> Daniel Narh</h1>
+            <ul class=" social-icons list-inline">
+              <li class="list-inline-item facebook"><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li class="list-inline-item twitter"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+              <li class="list-inline-item github"><a href="#"><i class="fab fa-github-square"></i></a></li>
+              <li class="list-inline-item email"><a href="#"><i class="far fa-envelope"></i></a></li>
+            </ul>
+            <a href="" type="button" class="btn btn-success">View My Resume <i class="fas fa-arrow-right"></i></a>
+        </div>
+  </div>
+-->
