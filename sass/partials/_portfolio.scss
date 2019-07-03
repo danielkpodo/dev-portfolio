@@ -1,0 +1,47 @@
+.portfolio {
+  margin: 0 auto;
+  h2 {
+    font: {
+      family: $roboto;
+      weight: 900;
+      size: 2em;
+
+  }
+  }
+}
+
+
+.portfolio-links  {
+  li {
+    font: {
+      size: 17px;
+    }
+    
+  .nav-link {
+    text-transform: capitalize !important;
+    font-weight: none; 
+  }
+
+    }
+
+
+}
+
+
+.folio-link {
+   background: $pink;
+}
+
+.nav-tabs .nav-link.active:hover, .nav-tabs .nav-link.active:focus {
+  border: none;
+  color: $pink;
+  text-decoration: none;
+}
+
+.nav-tabs .nav-link.active:hover, .nav-tabs .nav-link.active:focus:hover {
+  border: none;
+  color: $pink;
+  text-decoration: none;
+}
+
+

@@ -1,0 +1,16 @@
+body {
+    font: {
+        family: $open-sans;
+        size: 100%;
+    }
+    line-height: 1.8em;
+    
+}
+.navbar-nav {
+    li {
+        font: {
+            size: 14px;
+        }
+        text-transform: capitalize;
+    }
+}

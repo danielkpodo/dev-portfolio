@@ -1,0 +1,72 @@
+/*Profile card 2*/
+.profile-card-2 .card-img-block{
+    float:left;
+    width:100%;
+    height:150px;
+    overflow:hidden;
+}
+.profile-card-2 .card-body{
+    position:relative;
+}
+.profile-card-2 .profile {
+  border-radius: 50%;
+  position: absolute;
+  top: -42px;
+  left: 15%;
+  max-width: 75px;
+  border: 3px solid rgba(255, 255, 255, 1);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
+.profile-card-2 h3{
+    font-weight: 500;
+    opacity: 0.7;
+    color:#000;
+    font-family: $roboto;
+}
+.profile-card-2 .card-text{
+    font-weight:300;
+    font-size:15px;
+}
+.profile-card-2 .icon-block{
+    float:left;
+    width:100%;
+}
+.profile-card-2 .icon-block a{
+    text-decoration:none;
+}
+
+.post-home-date {
+    margin-bottom: 200px;
+}
+
+.blog-post {
+   h2 {
+
+       font: {
+           family: $roboto;
+           size: 2em;
+           weight: 900;
+       }
+   }
+}
+
+.icon-block {
+    a {
+        border: 1px solid $pink;
+        background: $pink;
+
+        &:hover {
+            background: #000;
+            opacity: 0.7;
+            transition: 1s;
+            transform: scale(1.1);
+          
+            
+        }
+
+
+    }
+
+    
+}

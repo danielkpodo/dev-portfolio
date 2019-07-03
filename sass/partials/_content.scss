@@ -1,0 +1,124 @@
+.jump {
+    background: {
+        image: url('../images/me.jpg');
+        attachment: fixed;
+        position: center;
+        size: cover;
+    }
+ 
+    @include background-size(cover);
+    color: #eee;
+    height: 650px;
+    img {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+    }
+position: relative;
+}
+
+.my-profile {
+    margin-top: 100px;
+    h1 {
+        font: {
+            size: 40px;
+            family: $roboto;
+            weight: 600;
+        }
+        text-shadow: 1px 1px 1px #fff;
+    }
+
+    .light-weight {
+        font-weight: normal !important;
+        font-family: $open-sans;
+        text-shadow: none;
+    }
+    .social-icons {
+        font: {
+            size: 28px;
+        }
+       a {
+        margin-right: 5px;
+        display: inline-block;
+        text-align: center;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 16px;
+        border-radius: 50%;
+        background-color: #fff;
+        color: #222;
+
+        &:hover {
+            background-color: #222;
+            color: #fff;
+            transform: scale(1.15);
+	        transition: 1s; 
+        }
+       }
+    }
+}
+
+
+.text-overlay
+{
+position: absolute;
+}
+
+.btn-resume {
+    border-radius: 20px 20px;
+    padding: 12px 20px;
+    color: #fff;
+    background-color: crimson;
+    outline: none !important;
+    font: {
+                family: $open-sans;
+                weight: 400;
+                size: 14px;
+        }
+
+
+    &:hover {
+    
+    color: #fff;
+    background-color: transparent;   
+    }
+}
+
+
+.type {
+    color: crimson;
+}
+
+.skill {
+    margin-bottom: 2px;
+    font-weight: bolder;
+}
+
+.progress {
+    height: 12px;
+    span {
+        color: #fff;
+        font: {
+            size: 1.2em;
+            weight: 800;
+        }
+    }
+}
+
+.skill-tags {
+    p {
+        font-weight: 900;
+        font-size: 18px;
+    }
+}
+
+//lazyest load
+img {
+    transition: filter 0.3s;
+}
+
+img.lazyestload {                
+    width: 100%;
+    filter: blur(8px);
+}
